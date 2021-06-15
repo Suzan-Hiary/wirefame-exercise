@@ -1,0 +1,52 @@
+body{
+    background-color: lightgray;
+    display:grid;
+    grid-gap: 30px;
+    padding: 50px;
+   
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color:rgb(106, 109, 110);
+   border: black;
+   width:100%;
+}
+
+header img{
+    float:left;
+    background-color: ivory;
+}
+nav {
+    display: inline;
+    padding: 100px;
+    background-size: 100% 100%;
+    list-style-type: none;
+    grid-gap: 50px;
+}
+
+div {
+    column-count: 3;
+    display:inline;
+    background-color:lightslategrey;
+    
+}
+
+div img{
+    float: lift ;
+    display: inline;
+
+}
+footer{
+    background-size: 100% 100%;
+    background-color: none;
+}
+
+div:button{
+    transition: linear;
+    color:black;
+}
